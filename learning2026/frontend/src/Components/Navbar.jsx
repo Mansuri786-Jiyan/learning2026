@@ -30,6 +30,10 @@ export const Navbar = () => {
                 Cricket Teams
               </Link>
 
+              <Link className="dropdown-item" style={{textAlign:"center"}} to="/functionaldamo1">
+               Functionaldamo1
+              </Link>
+
 
 
               {/* <Link className="dropdown-item" to="/map1">

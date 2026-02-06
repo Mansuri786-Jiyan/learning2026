@@ -17,6 +17,7 @@ import {Home} from './Components/Home.jsx'
 import { Navbar } from "./Components/Navbar.jsx"
 import {CricketTeam} from "./Components/CricketTeam.jsx"
 import SingleTeam from "./Components/SingleTeam.jsx"
+import FunctionalDemo1 from "./Components/FunctionalDemo1.jsx"
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
         <Route path="/map4" element={<Map4/>}></Route>
         <Route path="/CricketTeam" element={<CricketTeam/>}></Route>
         <Route path="/SingleTeam/:teamName" element={<SingleTeam/>}></Route>
+        <Route path="/functionaldamo1" element={<FunctionalDemo1/>}></Route>
       </Routes>
 
 
