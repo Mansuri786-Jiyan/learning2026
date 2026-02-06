@@ -1,12 +1,12 @@
 import React from 'react'
-import {useState} from 'react'
 
 function FunctionalDemo1() {
 
-    const[count,Setcount]  = useState(0);
-
-    const increament = () =>{
-        Setcount(count+1);
+    var count = 0;
+    function increament() {
+      console.log("Current value",count);
+      count++;
+      console.log("After Value",count);
     }
 
   return (
