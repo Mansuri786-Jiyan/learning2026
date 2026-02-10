@@ -1,42 +1,53 @@
-
+/* Light Mode Card Grid */
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 30px;
+  gap: 24px;
+  padding: 40px;
+  background: #f9fafb; /* soft light background */
 }
 
+/* Card */
 .card {
-  background: white;
-  border-radius: 15px;
+  background: #ffffff;
+  border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #eee;
 }
 
+/* Hover Effect */
 .card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
 
+/* Image */
 .card img {
   width: 100%;
   height: 180px;
   object-fit: contain;
-  background: #f4f4f4;
-  padding: 15px;
+  background: #f1f5f9;
+  padding: 18px;
 }
 
+/* Content */
 .card-content {
-  padding: 15px;
+  padding: 18px;
 }
 
+/* Title */
 .card-content h3 {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   font-size: 20px;
+  color: #111827;
+  font-weight: 600;
 }
 
+/* Description */
 .card-content p {
-  color: #555;
+  color: #6b7280;
   font-size: 14px;
+  line-height: 1.5;
 }

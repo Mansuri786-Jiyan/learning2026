@@ -22,9 +22,9 @@ export const Navbar = () => {
             <Link className="nav-link" to="/">Home</Link>
           </li>
 
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <Link className="nav-link" to="/Netflixhome">Netflixhome</Link>
-          </li> */}
+          </li>
 
           <Link className="dropdown-item" to="/CricketTeam">
                 Cricket Teams
@@ -44,7 +44,7 @@ export const Navbar = () => {
 
 
 
-              {/* <Link className="dropdown-item" to="/map1">
+              <Link className="dropdown-item" to="/map1">
                 Cars
               </Link>
 
@@ -58,7 +58,11 @@ export const Navbar = () => {
 
                <Link className="dropdown-item" to="/map4">
                 City
-              </Link> */}
+              </Link>
+
+               <Link className="dropdown-item" to="/OnchangTask">
+                OnChange
+              </Link>
 
         </ul>
       </div>

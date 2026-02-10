@@ -20,6 +20,8 @@ import SingleTeam from "./Components/SingleTeam.jsx"
 import FunctionalDemo1 from "./Components/FunctionalDemo1.jsx"
 import Usestatedemo2 from "./Components/Usestatedemo2.jsx"
 import UseStateDemo1 from "./Components/useStateDemo1.jsx"
+import OnchangTask from "./Components/OnchangTask.jsx"
+
 
 function App() {
 
@@ -51,7 +53,9 @@ function App() {
         <Route path="/functionaldamo1" element={<FunctionalDemo1/>}></Route>
         <Route path="/useStateDemp1" element={<UseStateDemo1/>}></Route>
         <Route path="/useStateDemp2" element={<Usestatedemo2/>}></Route>
+        <Route path="/OnchangTask" element={<OnchangTask/>}></Route>
       </Routes>
+      {/* <ContentComponentt/> */}
 
 
 

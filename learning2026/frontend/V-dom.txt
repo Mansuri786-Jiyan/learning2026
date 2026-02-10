@@ -1,0 +1,7 @@
+React Dom:
+The Virtual DOM is a lightweight JavaScript representation of the Real DOM. React uses it to efficiently update the UI by comparing the previous and current Virtual DOM using a diffing algorithm and updating only the changed parts in the Real DOM.
+
+
+Diffing Algoritham:
+The Diffing Algorithm is the core logic React uses during reconciliation to efficiently compare two Virtual DOM trees.
+
