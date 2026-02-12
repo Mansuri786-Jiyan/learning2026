@@ -68,6 +68,10 @@ export const Navbar = () => {
                 EmployeeData
               </Link>
 
+              <Link className="dropdown-item" to="/formdemo1">
+                FormDemo1
+              </Link>
+
                {/* <Link className="dropdown-item" to="/Inputdemo1">
                 Inputdemo1
               </Link>

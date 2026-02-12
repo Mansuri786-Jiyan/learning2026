@@ -25,6 +25,7 @@ import Inputdemo1 from "./Components/input/Inputdemo1.jsx"
 import InputDemo2 from "./Components/input/inputDemo2.jsx"
 import InputDemo3 from "./Components/input/FeedbackForm.jsx"
 import EmployeeData from "./Components/props/PropsDemo1/EmployeeData.jsx"
+import Formdemo1 from "./Components/foms/Formdemo1.jsx"
 
 
 
@@ -59,6 +60,7 @@ function App() {
         <Route path="/useStateDemp1" element={<UseStateDemo1/>}></Route>
         <Route path="/useStateDemp2" element={<Usestatedemo2/>}></Route>
         <Route path="/OnchangTask" element={<OnchangTask/>}></Route>
+        <Route path="/formdemo1" element={<Formdemo1/>}></Route>
           {/* <Route path="/Inputdemo1" element={<Inputdemo1/>}></Route>
           <Route path="/Inputdemo2" element={<InputDemo2/>}></Route>
           <Route path="/Inputdemo3" element={<InputDemo3/>}></Route> */}
