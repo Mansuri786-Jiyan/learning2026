@@ -98,6 +98,10 @@ export const Navbar = () => {
 
               <Link className="dropdown-item" to="/apidemo2">
                 APIDEMO2
+              </Link>.
+
+              <Link className="dropdown-item" to="/apidemo3">
+                APIDEMO3
               </Link>
 
         </ul>
