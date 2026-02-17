@@ -28,6 +28,7 @@ import EmployeeData from "./Components/props/PropsDemo1/EmployeeData.jsx"
 import Formdemo1 from "./Components/foms/Formdemo1.jsx"
 import Formdemo2 from "./Components/foms/Formdemo2.jsx"
 import FormDemo3 from "./Components/foms/FormDemo3.jsx"
+import ApiDemo1 from "./Components/Api/ApiDemo1.jsx"
 
 
 
@@ -69,6 +70,7 @@ function App() {
           <Route path="/EmployeeData" element={<EmployeeData/>}></Route> 
           <Route path="/formdemo2" element={<Formdemo2/>}></Route> 
           <Route path="/formdemo3" element={<FormDemo3/>}></Route> 
+          <Route path="/apidemo1" element={<ApiDemo1/>}></Route> 
         
 
 
