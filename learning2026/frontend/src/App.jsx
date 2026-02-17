@@ -29,7 +29,7 @@ import Formdemo1 from "./Components/foms/Formdemo1.jsx"
 import Formdemo2 from "./Components/foms/Formdemo2.jsx"
 import FormDemo3 from "./Components/foms/FormDemo3.jsx"
 import ApiDemo1 from "./Components/Api/ApiDemo1.jsx"
-import APIDEMO2 from "./Components/Api/APIDEMO1.jsx"
+import APIDEMO2 from "./Components/Api/ApidDemo2.jsx"
 
 
 
