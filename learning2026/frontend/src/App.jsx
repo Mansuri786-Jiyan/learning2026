@@ -1,4 +1,4 @@
-// import './App.css'
+import './App.css'
 import HeaderComponent from "./Components/HeaderComponent"
 import ContentComponentt from "./Components/ContentComponent"
 import FooterComponent from "./Components/FooterComponent"
@@ -31,6 +31,8 @@ import FormDemo3 from "./Components/foms/FormDemo3.jsx"
 import ApiDemo1 from "./Components/Api/ApiDemo1.jsx"
 import APIDEMO2 from "./Components/Api/ApidDemo2.jsx"
 import ApiDemo3 from "./Components/Api/ApiDemo3.jsx"
+import Movies from "./Components/Api/IMDB_API/Movies.jsx"
+import MovieDetails from "./Components/Api/IMDB_API/MoviesDetails.jsx"
 
 
 
@@ -75,6 +77,9 @@ function App() {
           <Route path="/apidemo1" element={<ApiDemo1/>}></Route> 
           <Route path="/apidemo2" element={<APIDEMO2/>}></Route> 
           <Route path="/apidemo3" element={<ApiDemo3/>}></Route> 
+          <Route path="/movies" element={<Movies/>}></Route> 
+          <Route path="/imdb/:id" element={<MovieDetails />} />
+
         
 
 

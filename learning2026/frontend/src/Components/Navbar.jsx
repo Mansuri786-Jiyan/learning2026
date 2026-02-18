@@ -17,7 +17,7 @@ export const Navbar = () => {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
-
+{/* 
           <li className="nav-item active">
             <Link className="nav-link" to="/">Home</Link>
           </li>
@@ -40,11 +40,11 @@ export const Navbar = () => {
 
                <Link className="dropdown-item" style={{textAlign:"center"}} to="/useStateDemp2">
                Usesatatedemo2
-              </Link>
+              </Link> */}
 
 
 
-              <Link className="dropdown-item" to="/map1">
+              {/* <Link className="dropdown-item" to="/map1">
                 Cars
               </Link>
 
@@ -74,7 +74,7 @@ export const Navbar = () => {
 
                <Link className="dropdown-item" to="/formdemo2">
                 FormDemo2
-              </Link>
+              </Link> */}
 
                <Link className="dropdown-item" to="/Inputdemo1">
                 Inputdemo1
@@ -102,6 +102,11 @@ export const Navbar = () => {
 
               <Link className="dropdown-item" to="/apidemo3">
                 APIDEMO3
+              </Link>
+
+
+               <Link className="dropdown-item" to="/movies">
+                Movies
               </Link>
 
         </ul>

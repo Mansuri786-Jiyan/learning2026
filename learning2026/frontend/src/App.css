@@ -1,23 +1,27 @@
-Light Mode Card Grid
+/* Container Wrapper */
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Card Grid Layout */
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 24px;
   padding: 40px;
-  background: #f9fafb; /* soft light background */
 }
 
 /* Card */
 .card {
   background: #ffffff;
-  border-radius: 18px;
+  border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.3s ease;
   border: 1px solid #eee;
 }
 
-/* Hover Effect */
 .card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 28px rgba(0,0,0,0.12);
@@ -26,28 +30,27 @@ Light Mode Card Grid
 /* Image */
 .card img {
   width: 100%;
-  height: 180px;
-  object-fit: contain;
-  background: #f1f5f9;
-  padding: 18px;
+  height: 200px;
+  object-fit: cover;
 }
 
-/* Content */
+/* Card Content */
 .card-content {
-  padding: 18px;
+  padding: 16px;
 }
 
-/* Title */
 .card-content h3 {
+  font-size: 18px;
   margin-bottom: 6px;
-  font-size: 20px;
-  color: #111827;
   font-weight: 600;
 }
 
-/* Description */
 .card-content p {
-  color: #6b7280;
   font-size: 14px;
-  line-height: 1.5;
+  color: #6b7280;
+}
+
+/* Navbar Fix */
+nav {
+  width: 100%;
 }
