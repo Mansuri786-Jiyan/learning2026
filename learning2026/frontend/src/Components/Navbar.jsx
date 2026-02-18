@@ -109,6 +109,12 @@ export const Navbar = () => {
                 Movies
               </Link>
 
+              
+
+              <Link className="dropdown-item" to="/post1">
+                Post1
+              </Link>
+
         </ul>
       </div>
     </nav>

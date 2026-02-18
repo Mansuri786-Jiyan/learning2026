@@ -27,9 +27,7 @@ function MovieDetails() {
 
   return (
     <div className="movie-page">
-      <button onClick={() => navigate(-1)} className="back-btn">
-        ⬅ Back
-      </button>
+      
 
       <div className="movie-container">
         <div className="movie-poster">
@@ -66,6 +64,9 @@ function MovieDetails() {
           </div>
         </div>
       </div>
+      <button onClick={() => navigate(-1)} className="back-btn">
+        ⬅ Back
+      </button>
     </div>
   );
 }

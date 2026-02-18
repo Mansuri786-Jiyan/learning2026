@@ -33,7 +33,7 @@ import APIDEMO2 from "./Components/Api/ApidDemo2.jsx"
 import ApiDemo3 from "./Components/Api/ApiDemo3.jsx"
 import Movies from "./Components/Api/IMDB_API/Movies.jsx"
 import MovieDetails from "./Components/Api/IMDB_API/MoviesDetails.jsx"
-
+import Form1 from './Components/Api/POST_API/Form1.jsx'
 
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
 
     <>
     <Navbar></Navbar>
-      <HeaderComponent></HeaderComponent>
+      {/* <HeaderComponent></HeaderComponent> */}
       {/* <ContentComponentt></ContentComponentt> */}
       {/* <Map1></Map1>
       <Map2></Map2>
@@ -79,6 +79,7 @@ function App() {
           <Route path="/apidemo3" element={<ApiDemo3/>}></Route> 
           <Route path="/movies" element={<Movies/>}></Route> 
           <Route path="/imdb/:id" element={<MovieDetails />} />
+          <Route path="/post1" element={<Form1/>} />
 
         
 
