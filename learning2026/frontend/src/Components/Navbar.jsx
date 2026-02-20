@@ -17,16 +17,16 @@ export const Navbar = () => {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
-{/* 
+
           <li className="nav-item active">
             <Link className="nav-link" to="/">Home</Link>
           </li>
 
           <li className="nav-item">
-            <Link className="nav-link" to="/Netflixhome">Netflixhome</Link>
+            <Link className="nav-link" to="/Netflixhome">Form Validation</Link>
           </li>
 
-          <Link className="dropdown-item" to="/CricketTeam">
+          {/* <Link className="dropdown-item" to="/CricketTeam">
                 Cricket Teams
               </Link>
 
@@ -44,37 +44,37 @@ export const Navbar = () => {
 
 
 
-              {/* <Link className="dropdown-item" to="/map1">
-                Cars
-              </Link>
+                {/* <Link className="dropdown-item" to="/map1">
+                  Cars
+                </Link>
 
-              <Link className="dropdown-item" to="/map2">
-                Users
-              </Link>
+                <Link className="dropdown-item" to="/map2">
+                  Users
+                </Link>
 
-               <Link className="dropdown-item" to="/map3">
-                Students
-              </Link>
+                <Link className="dropdown-item" to="/map3">
+                  Students
+                </Link>
 
-               <Link className="dropdown-item" to="/map4">
-                City
-              </Link>
+                <Link className="dropdown-item" to="/map4">
+                  City
+                </Link>
 
-               <Link className="dropdown-item" to="/OnchangTask">
-                OnChange
-              </Link>
+                <Link className="dropdown-item" to="/OnchangTask">
+                  OnChange
+                </Link>
 
-               <Link className="dropdown-item" to="/EmployeeData">
-                EmployeeData
-              </Link>
+                <Link className="dropdown-item" to="/EmployeeData">
+                  EmployeeData
+                </Link>
 
-              <Link className="dropdown-item" to="/formdemo1">
-                FormDemo1
-              </Link>
+                <Link className="dropdown-item" to="/formdemo1">
+                  FormDemo1
+                </Link>
 
-               <Link className="dropdown-item" to="/formdemo2">
-                FormDemo2
-              </Link> */}
+                <Link className="dropdown-item" to="/formdemo2">
+                  FormDemo2
+                </Link> */}
 
                <Link className="dropdown-item" to="/Inputdemo1">
                 Inputdemo1
