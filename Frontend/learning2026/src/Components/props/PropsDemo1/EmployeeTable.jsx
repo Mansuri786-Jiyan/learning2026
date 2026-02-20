@@ -2,8 +2,8 @@ import React from 'react'
 
 function EmployeeTable(props) {
   return (
-     <div className="table">
-      <table>
+     <div className="table table-striped" >
+      <table style={{Width:"100px",textAlign:'center'}}>
         <thead>
           <tr>
             <th>ID</th>
