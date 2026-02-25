@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { toast } from "react-toastify";
 
 function Allusers() {
   const [users, setUsers] = useState([]);
@@ -23,11 +24,10 @@ function Allusers() {
   // 🔥 Make delete async + await
   const DeleteApi = async (id) => {
     try {
-      await axios.delete(
-        `https://node5.onrender.com/user/user/${id}`
-      );
-
-      // Refresh data after delete
+      const res = await axios.delete(`https://node5.onrender.com/user/user/${id}`);
+      if (res.status == 204) {
+        toast("Delete Successfully")
+      }
       getData();
 
     } catch (error) {
