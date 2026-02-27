@@ -42,6 +42,16 @@ app.get("/employees", (req, res) => {
   })
 });
 
+app.get("/employees/:id", (req, res) => {
+  const responde = Employees.find(e => e.id === parseInt(req.params.id));
+  if (responde) {
+    res.json({
+      message:"Successfull fetch",
+      data:responde
+    })
+  }else{ res.send("Data Not found")}
+});
+
 app.listen(10000, (req, res) => {
   console.log(`Server start on 10000`);
 });
