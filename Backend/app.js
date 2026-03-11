@@ -86,6 +86,9 @@ app.use("/api/states", stateRoutes);
 app.use("/api/cities", cityRoutes);
 app.use("/api/categories", categoryRoutes);
 
+const authRoutes = require("./src/router/authRoutes");
+app.use("/api/auth", authRoutes);
+
 app.listen(10000, () => {
   console.log("Server start on 10000");
 });
